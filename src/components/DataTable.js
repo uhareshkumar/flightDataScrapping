@@ -72,11 +72,11 @@ class DataTable extends React.Component {
                             <th>
                                 Duration
                                 <i 
-                                    class="arrow alternate circle down icon" 
+                                    className="arrow alternate circle down icon" 
                                     onClick={() => {this.props.sort("duration")}}
                                 />
                                 <i 
-                                    class="arrow alternate circle up icon" 
+                                    className="arrow alternate circle up icon" 
                                     onClick={() => {this.props.sortReverse("duration")}}
                                 />
                             </th>
@@ -86,11 +86,11 @@ class DataTable extends React.Component {
                             <th>
                                 Suggession
                                 <i 
-                                    class="arrow alternate circle down icon" 
+                                    className="arrow alternate circle down icon" 
                                     onClick={() => {this.props.sort("price")}}
                                 />
                                 <i 
-                                    class="arrow alternate circle up icon" 
+                                    className="arrow alternate circle up icon" 
                                     onClick={() => {this.props.sortReverse("price")}}
                                 />
                             </th>
